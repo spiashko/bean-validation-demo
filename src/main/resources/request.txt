@@ -1,0 +1,10 @@
+curl -X POST \
+  http://localhost:8080/events \
+  -H 'Content-Type: application/json' \
+  -H 'cache-control: no-cache' \
+  -d '{
+	"id": 1,
+	"title": "some event",
+	"start": "2020-01-25T21:34:55",
+	"finish": "2020-01-27T21:34:55"
+}'
